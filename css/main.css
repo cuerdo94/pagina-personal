@@ -1,0 +1,190 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+header {
+  background: #26374b;
+  color: #fff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #77aaff 3px solid;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header ul {
+  padding: 0;
+  list-style: none;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+.showcase {
+  min-height: 400px;
+  background: #26374b;
+  color: #fff;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.showcase h1 {
+  font-size: 55px;
+  margin-top: 0;
+}
+
+.showcase p {
+  font-size: 20px;
+}
+
+.contact,
+.skills {
+  background: #e4e4e4;
+  padding: 30px;
+  text-align: center;
+}
+
+.contact p,
+.skills p {
+  margin: 0;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.contact-icons a:hover {
+  color: #26374b;
+}
+
+.contact-icons i {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background: #26374b;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  /* margin-top: 30px; */
+}
+
+h2 {
+  color: #26374b;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.grid-item {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.grid-item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.grid-item li {
+  background: #f4f4f4;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.grid-item p {
+  font-size: 20px;
+  color:#26374b ;
+}
+
+@media screen and (max-width: 768px) {
+
+  header .container,
+  .contact-icons {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  header ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  header li {
+    padding: 10px 0;
+  }
+
+  .contact-icons a {
+    margin: 5px;
+    padding: 5px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
