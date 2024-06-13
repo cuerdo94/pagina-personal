@@ -188,3 +188,25 @@ a {
   text-decoration: none;
   color: #333;
 }
+
+a.clickable {
+  text-decoration: none;
+  color: #333;
+  display: inline-block;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+a.clickable h3 {
+  margin: 0;
+  padding: 10px;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+a.clickable:hover h3 {
+  color: #1865b7;
+  background-color: #e0e0e0;
+}
+
+a.clickable {
+  cursor: pointer;
+}
